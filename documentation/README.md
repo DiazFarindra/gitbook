@@ -8,7 +8,11 @@ coverY: -803.3160621761658
 
 ## Introduction
 
-This document contains procedures for creating and writing program code in INDI Technology, which aims to make the code base that is created highly scalable and easy to maintain. so that other programmers can easily understand the code that we create, it is necessary to follow the standards developed. if there is a documented way to achieve something, go for it. **Whenever we want to do something different from the standard, make sure you have a reason why you are not following the standard.**
+This document contains procedures for creating and writing program code in INDI Technology, which aims to make the code base that is created highly scalable and easy to maintain. so that other programmers can easily understand the code that we create.
+
+{% hint style="info" %}
+it is necessary to follow the standards developed. if there is a documented way to achieve something, go for it. **Whenever we want to do something different from the standard, make sure you have a reason why you are not following the standard.**
+{% endhint %}
 
 Good code is code that can document the code itself, is easy to read, and is easily understood by others, this will minimize bugs and can find bugs without making testing first.
 
