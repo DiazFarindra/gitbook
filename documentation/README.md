@@ -84,14 +84,13 @@ class Foo
 
 ## Enums
 
-Values in enums should use PascalCase.
+Values in enums should use UPPERCASE with snake\_case and use lowercase for its value same as the key, but not limited when it has some custom word or message for explaining what the enum for.
 
 ```php
 enum Suit {  
-    case Apple = 'apple';
-    case JackFruit = 'jackfruit';
-    case WaterMellon = 'watermellon';
-    case Strawberry = 'strawberry';
+    case APPLE = 'apple';
+    case JACKFRUIT = 'jackfruit';
+    case YELLOW_MANGGO = 'yellow_manggo';
 }
 
 // calling the enum value
